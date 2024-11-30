@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50; /* Un color verde atractivo */
+    font-size: 2.5rem; /* Tamaño más grande */
+    font-weight: bold; /* Texto en negritas */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para el texto */
+    background: linear-gradient(90deg, #33ccff, #ff99cc); /* Degradado de color */
+    -webkit-background-clip: text; /* Clip para aplicar el degradado solo al texto */
+    -webkit-text-fill-color: transparent; /* Hacer el fondo transparente */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-align: center; /* Asegurar que esté centrado */
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 2px solid #4CAF50; /* Línea decorativa debajo del título */
+}
+
+canvas {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
